@@ -43,6 +43,7 @@ env:
   RESOURCE_GROUP: "rg-maalsi-23"
   CLUSTER_NAME: "aks-maalsi-23"
   KUSTOMIZE_PATH: "kubernetes/mssql"
+  AZURE_SUBSCRIPTION_ID: "10ce0944-5960-42ed-8657-1a8177030014"
 
 jobs:
   deploy:
